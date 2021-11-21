@@ -11,3 +11,7 @@ setTimeout(function() {
 
 const app;
 const app.func = element(""+app+"");
+
+function app.view(appview) {
+app = appview;
+}
