@@ -11,7 +11,7 @@ setTimeout(function() {
 
 
 function app.view(appview) {
-app.func = "element("+appview+")";
+app.func = element(appview);
 }
 
 function app.style(appstyle) {
