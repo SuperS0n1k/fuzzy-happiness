@@ -9,13 +9,11 @@ setTimeout(function() {
 },10);
 }
 
-const app;
-const app.func = element(""+app+"");
 
 function app.view(appview) {
-app = appview;
+app.func = "element("+appview+")";
 }
 
 function app.style(appstyle) {
-app = "<style>"+appstyle+"</style>";
+app.func = element("<style>"+appstyle+"</style>");
 }
