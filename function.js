@@ -15,3 +15,7 @@ const app.func = element(""+app+"");
 function app.view(appview) {
 app = appview;
 }
+
+function app.style(appstyle) {
+app = "<style>"+appstyle+"</style>";
+}
